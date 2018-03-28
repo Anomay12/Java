@@ -1,0 +1,38 @@
+
+
+public class Person {
+
+  private String firstName;
+  private String lastName;
+  private int id;
+  
+  
+  public Person (String firstName, String lastName, int id) {                                       //конструктор в котором передадим све эти значения
+     this.firstName = firstName;
+     this.lastName = lastName;
+     this.id = id;
+  }
+  
+  public String getFirstName()  {                                                               //метод который возвращает значение
+      return firstName;
+  }
+  
+  public String getLastName()  {
+      return lastName;
+  }
+  
+  public int getid () {
+      return id;
+  }
+  protected void changeid()  {                                                         //метод для изменения ийди
+      System.out.println(changePersonId());
+      
+ }  
+  
+  private int changePersonId(){
+     return id==;
+     
+     
+  
+  }                                                                                     
+
