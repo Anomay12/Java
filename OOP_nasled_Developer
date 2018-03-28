@@ -1,0 +1,17 @@
+ public class Developer extends Person {           //наследование
+ 
+    public Developer (String firstName, String lastName, int id) 
+    
+        super (firstName, lastName, id);                          //проталкивает параметры в класс родитель Person
+        
+    }
+    
+    public void develop ( String task) {
+    
+        System.out.println("I'm doing the task: " + task + " now!");
+    }
+    
+    protected void changeId ()  {                    //переопределение метода
+        int devId = getid () + 2;   
+    }
+ }
