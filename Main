@@ -1,0 +1,14 @@
+
+
+
+public class Main  {
+
+
+  public ctatic void main (String []  args) {
+    Employee emp1 = new Employee ("John", "Snow");                           //обьект нашего класса
+    
+    String result = emp1.getInfo();                                             //сохраняем возвращаемое значение
+    System.out.println (result);
+    
+    emp1.work (8);                                                      //  передаем значение
+    ]
