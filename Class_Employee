@@ -1,0 +1,26 @@
+public class Emploee{
+  
+  String firstName;                                         //поля класса
+  String lastName;                                          //поля класса
+  
+  
+  Employee (String firstName, String lastName)  {                 // конструктор с параметрами
+    this.firstName = firstName;                                   //присваивание соответствующим полям
+    this.lastName = lastName;                                        //присваивание соответствующим полям
+   
+  }
+  
+  public String getinfo ()  {                                       // метод 
+    String result = "My name " + firstName + " " + lastName;
+    
+    
+    return result;                                                    // возвращение значения
+    
+  }
+  
+  
+  public void work (int hours)  {                                           // метод который ничего не возвращает, но принимает параметр инт
+    System.out.println ("I'm gonna work for " + hours + " hours!");
+  }
+  
+}
